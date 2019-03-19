@@ -1,0 +1,62 @@
+.welcome-card ion-img {
+  max-width: 150px;
+  overflow: hidden;
+}
+
+ion-slide{
+	width: 80%;
+	padding: 15px;
+	margin: 0px auto 10px auto
+	
+}
+
+.rek_idr{
+	padding: 5px;
+}
+
+img_rek_idr{
+	max-width:170px;
+}
+
+card-content{
+	padding: 10px 0px !important;
+}
+
+.slider{
+	
+	
+}
+
+ion-toolbar {
+min-height:56px;
+--background: transparent;
+--ion-color-base: transparent !important;
+}
+
+.icon{
+	width: auto !important;
+	max-width: 40px !important;
+
+}
+
+ion-col .no-padding{
+
+	padding:0px;
+}
+
+.saldo{
+	margin: 0px;
+}
+
+ion-grid{
+	width: 80%;
+	padding: 15px;
+}
+
+.bg-full{
+	background-image: url('/assets/background2.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: contain;
+	padding-top: 30%;
+}

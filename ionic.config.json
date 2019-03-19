@@ -1,0 +1,8 @@
+{
+  "name": "iBank Mobile",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "1ec1f2e5"
+}

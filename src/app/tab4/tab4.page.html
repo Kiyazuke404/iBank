@@ -1,0 +1,23 @@
+<ion-header>
+	<ion-toolbar>
+	  <ion-title text-center>Inbox</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<ion-list>
+	  <ion-item *ngFor="let item of [1,1,1,1,1,1,1,1,1,1,1,1]; let i = index">
+	  	<ion-badge slot="start">{{i+1}}</ion-badge>
+	    <ion-label>
+	    	<h2>Saldo Habis, Rekening Kosong ?</h2>
+	    	<h5>Sekarang di iBank bisa deposit dengan kartu kredit</h5>
+	    	<h5>14 Jan 2019</h5>
+	    </ion-label>
+	   <!--  <ion-badge slot="end" color="danger">
+		  <ion-icon name="trash"></ion-icon>
+		</ion-badge> -->
+	  </ion-item>
+	 
+	 
+	</ion-list>
+</ion-content>
